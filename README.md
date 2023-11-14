@@ -1,7 +1,9 @@
-# [catenacio21.github.io](https://pueblita01.github.io/catenacio21.github.io/)https://pueblita01.github.io/catenacio21.github.io/
+# [catenacio21.github.io](https://pueblita01.github.io/catenacio21.github.io/) 
 Notas mentales
 
 * Agregando un condicional al setState con BOOLEAN
+  
+  ```JS
   
    listadoItemsDePedidoElegido = (id) => {
     fetch(`http://localhost:8383/pedido/busqueda/${id}`)
@@ -15,3 +17,5 @@ Notas mentales
         })): window.alert("EL pedido no existe o no tiene ItemsPedido")
       );
   };
+  
+  ```
